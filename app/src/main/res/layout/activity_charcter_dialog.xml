@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="字体大小"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/charcter_small_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="小"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/small_charcter" />
+
+        <RadioButton
+            android:focusable="false"
+            android:clickable="false"
+            android:checked="true"
+            android:id="@+id/charcter_small_rdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:button="@null"
+            android:background="@drawable/bg_rdb"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/charcter_standard_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="标准"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/standard_charcter" />
+
+        <RadioButton
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@+id/charcter_standard_rdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_rdb"
+            android:button="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/charcter_big_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="大"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/big_charcter" />
+
+        <RadioButton
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@+id/charcter_big_rdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_rdb"
+            android:button="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/charcter_super_big_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="超大"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/super_big_charcter" />
+
+        <RadioButton
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@+id/charcter_super_big_rdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_rdb"
+            android:button="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:id="@+id/charcter_espcial_big_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="特大"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/espcial_charcter" />
+
+        <RadioButton
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@+id/charcter_espacial_big_rdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_rdb"
+            android:button="@null"
+            android:scaleType="fitCenter"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#c6c6c6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/charcter_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_btn"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
